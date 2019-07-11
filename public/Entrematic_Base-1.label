@@ -1,8 +1,4 @@
-const querystring = require('querystring');                                                                                                                                                                                                
-const https = require('https');
-
-// Template for S0722430 Dymo
-Label01= '<?xml version="1.0" encoding="utf-8"?>'+
+﻿'<?xml version="1.0" encoding="utf-8"?>'+
 '<DieCutLabel Version="8.0" Units="twips">'+
 '<PaperOrientation>Landscape</PaperOrientation>'+
  	'<Id>Shipping</Id>'+
@@ -28,9 +24,9 @@ Label01= '<?xml version="1.0" encoding="utf-8"?>'+
 			'<UseFullFontHeight>True</UseFullFontHeight>'+
 			'<Verticalized>False</Verticalized>'+
 			'<StyledText>'+
-				'<Element>'
-					
-Label02='<Attributes>'+
+				'<Element>'+
+					'<String xml:space="preserve">BE123452</String>'+
+					'<Attributes>'+
 						'<Font Family="DIN Pro" Size="22" Bold="True" Italic="False" Underline="False" Strikeout="False" />'+
 						'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />'+
 					'</Attributes>'+
@@ -54,9 +50,9 @@ Label02='<Attributes>'+
 			'<IsMirrored>False</IsMirrored>'+
 			'<IsVariable>False</IsVariable>'+
 			'<GroupID>-1</GroupID>'+
-			'<IsOutlined>False</IsOutlined>'
-			
-Label03='<Type>Code39</Type>'+
+			'<IsOutlined>False</IsOutlined>'+
+			'<Text>BE123452/123</Text>'+
+			'<Type>Code39</Type>'+
 			'<Size>Medium</Size>'+
 			'<TextPosition>Bottom</TextPosition>'+
 			'<TextFont Family="Arial" Size="8" Bold="False" Italic="False" Underline="False" Strikeout="False" />'+
@@ -85,8 +81,9 @@ Label03='<Type>Code39</Type>'+
 			'<UseFullFontHeight>True</UseFullFontHeight>'+
 			'<Verticalized>False</Verticalized>'+
 			'<StyledText>'+
-				'<Element>'
-		Label04='<Attributes>'+
+				'<Element>'+
+					'<String xml:space="preserve">Links/Gouche/Left</String>'+
+					'<Attributes>'+
 						'<Font Family="DIN Pro" Size="12" Bold="False" Italic="False" Underline="False" Strikeout="False" />'+
 						'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />'+
 					'</Attributes>'+
@@ -143,7 +140,7 @@ Label03='<Type>Code39</Type>'+
 	'</ObjectInfo>'+
 	'<ObjectInfo>'+
 		'<TextObject>'+
-			'<Name>SOFTVer</Name>'+
+			'<Name>SOFTVer</Name>
 			'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />'+
 			'<BackColor Alpha="0" Red="255" Green="255" Blue="255" />'+
 			'<LinkedObjectName />'+
@@ -151,7 +148,7 @@ Label03='<Type>Code39</Type>'+
 			'<IsMirrored>False</IsMirrored>'+
 			'<IsVariable>False</IsVariable>'+
 			'<GroupID>-1</GroupID>'+
-			'<IsOutlined>False</IsOutlined>'+
+			'<IsOutlined>False</IsOutlined>
 			'<HorizontalAlignment>Left</HorizontalAlignment>'+
 			'<VerticalAlignment>Top</VerticalAlignment>'+
 			'<TextFitMode>ShrinkToFit</TextFitMode>'+
@@ -169,73 +166,4 @@ Label03='<Type>Code39</Type>'+
 		'</TextObject>'+
 		'<Bounds X="307" Y="2849.66178128523" Width="628.816234498316" Height="120" />'+
 	'</ObjectInfo>'+
-'</DieCutLabel>'
-
-// Set hostname and location to post to
-var options = {
-    hostname: '127.0.0.1',
-    port: 41951,
-    path: '/DYMO/DLS/Printing/PrintLabel2',
-    method: 'POST',
-    headers: {
-         'Content-Type': 'application/x-www-form-urlencoded'
-               }
-  };
-exports.create_get = function(req, res) { //Display index screen on get /
-    res.render('home');
-
-};
-
-// Handle etiquette create on POST
-exports.create_post = function(req, res) {
-    var etiquette = {
-        serial : req.body.serial
-    }
-
-
-var etiquetteclean = etiquette.serial.substr(0).slice(0, -4); //Clean string (remove /220 or /330) // For structure
-//var etiquetteclean = etiquette.serial.substr(13); //Clean string (remove Product prefix for Depanage)
-console.log(etiquetteclean);
-for (i = 0; i <  2; i++) {
-var side
-    switch(i) {
-        case 1:
-         side='Links/Gauche/Left'
-          break;
-        case 0:
-	      side='Rechts/Droit/Right'
-          break;
-        default:
-         
-      }
-
-
-var postData = querystring.stringify({
-    'printerName': 'DYMO LabelWriter 450 Turbo', //set printer name
-	'printParamsXml':'',
-	'labelXml': Label01+'<String xml:space="preserve">'+etiquetteclean+'</String>'+Label02+'<Text>'+etiquette.serial+'</Text>'+Label03+'<String xml:space="preserve">'+side+'</String>'+Label04 ,
-    'labelSetXml':''
-});
-
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";  // Don't verify SSL cert
-
-var req = https.request(options, (res) => {
-    console.log('statusCode:', res.statusCode);
-    console.log('headers:', res.headers);
-  
-    res.on('data', (d) => {
-      process.stdout.write(d);
-    });
-  });
-  
-  req.on('error', (e) => {
-    console.error(e);
-  });
-  
-  req.write(postData);
-  req.end();
-
-}
-res.render('home')
-}
-
+'</DieCutLabel>'+
