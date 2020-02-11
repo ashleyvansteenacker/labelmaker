@@ -9,12 +9,12 @@
   "author": "Ashley Van Steenacker",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.2"
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
   },
   "devDependencies": {
-    "@types/express": "^4.16.1",
-    "@types/ws": "^6.0.1",
-    "typescript": "^3.4.3"
+    "@types/express": "^4.17.2",
+    "@types/ws": "^7.2.1",
+    "typescript": "^3.7.5"
   }
 }
