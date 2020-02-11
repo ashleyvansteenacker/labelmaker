@@ -59,10 +59,10 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
-  background-image:url(entrematic-bg.jpeg);
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
+  text-align: center;
+  background-image:url(background.jpg);
+  background-repeat: no-repeat;
+  background-position: top; /* Center the image */
 }
 
 [tabindex="-1"]:focus {
