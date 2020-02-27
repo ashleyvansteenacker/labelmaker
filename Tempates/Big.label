@@ -1,189 +1,189 @@
-﻿'<?xml version="1.0" encoding="utf-8"?>'+
-'<DieCutLabel Version="8.0" Units="twips" MediaType="Default">'+
-	'<PaperOrientation>Landscape</PaperOrientation>'+
-	'<Id>Shipping</Id>'+
-	'<IsOutlined>false</IsOutlined>'+
-	'<PaperName>30323 Shipping</PaperName>'+
-	'<DrawCommands>'+
-		'<RoundRectangle X="0" Y="0" Width="3060" Height="5715" Rx="270" Ry="270" />'+
-	'</DrawCommands>'+
-	'<ObjectInfo>'+
-		'<TextObject>'+
-			'<Name>TEXT</Name>'+
-			'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />'+
-			'<BackColor Alpha="0" Red="255" Green="255" Blue="255" />'+
-			'<LinkedObjectName />'+
-			'<Rotation>Rotation0</Rotation>'+
-			'<IsMirrored>False</IsMirrored>'+
-			'<IsVariable>False</IsVariable>'+
-			'<GroupID>-1</GroupID>'+
-			'<IsOutlined>False</IsOutlined>'+
-			'<HorizontalAlignment>Left</HorizontalAlignment>'+
-			'<VerticalAlignment>Middle</VerticalAlignment>'+
-			'<TextFitMode>AlwaysFit</TextFitMode>'+
-			'<UseFullFontHeight>True</UseFullFontHeight>'+
-			'<Verticalized>False</Verticalized>'+
-			'<StyledText>'+
-				'<Element>'+
-					'<String xml:space="preserve">SERIAL</String>'+
-					'<Attributes>'+
-						'<Font Family="Myriad Pro" Size="24" Bold="True" Italic="False" Underline="False" Strikeout="False" />'+
-						'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />'+
-					'</Attributes>'+
-				'</Element>'+
-			'</StyledText>'+
-		'</TextObject>'+
-		'<Bounds X="307" Y="99.28005" Width="5323" Height="1935.202" />'+
-	'</ObjectInfo>'+
-	'<ObjectInfo>'+
-		'<BarcodeObject>'+
-			'<Name>QR</Name>'+
-			'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />'+
-			'<BackColor Alpha="255" Red="255" Green="255" Blue="255" />'+
-			'<LinkedObjectName />'+
-			'<Rotation>Rotation0</Rotation>'+
-			'<IsMirrored>False</IsMirrored>'+
-			'<IsVariable>False</IsVariable>'+
-			'<GroupID>-1</GroupID>'+
-			'<IsOutlined>False</IsOutlined>'+
-			'<Text>QR</Text>'+
-			'<Type>QRCode</Type>'+
-			'<Size>Medium</Size>'+
-			'<TextPosition>None</TextPosition>'+
-			'<TextFont Family="Helvetica" Size="10" Bold="False" Italic="False" Underline="False" Strikeout="False" />'+
-			'<CheckSumFont Family="Helvetica" Size="10" Bold="False" Italic="False" Underline="False" Strikeout="False" />'+
-			'<TextEmbedding>None</TextEmbedding>'+
-			'<ECLevel>0</ECLevel>'+
-			'<HorizontalAlignment>Center</HorizontalAlignment>'+
-			'<QuietZonesPadding Left="0" Top="0" Right="0" Bottom="0" />'+
-		'</BarcodeObject>'+
-		'<Bounds X="307" Y="1779.588" Width="1217.312" Height="1196.412" />'+
-	'</ObjectInfo>'+
-	'<ObjectInfo>'+
-		'<DateTimeObject>'+
-			'<Name>DATE-TIME</Name>'+
-			'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />'+
-			'<BackColor Alpha="0" Red="255" Green="255" Blue="255" />'+
-			'<LinkedObjectName />'+
-			'<Rotation>Rotation0</Rotation>'+
-			'<IsMirrored>False</IsMirrored>'+
-			'<IsVariable>False</IsVariable>'+
-			'<GroupID>-1</GroupID>'+
-			'<IsOutlined>False</IsOutlined>'+
-			'<HorizontalAlignment>Left</HorizontalAlignment>'+
-			'<VerticalAlignment>Middle</VerticalAlignment>'+
-			'<TextFitMode>ShrinkToFit</TextFitMode>'+
-			'<UseFullFontHeight>True</UseFullFontHeight>'+
-			'<Verticalized>False</Verticalized>'+
-			'<DateTimeFormat>DayMonthYear</DateTimeFormat>'+
-			'<Font Family="Myriad Pro" Size="13" Bold="True" Italic="False" Underline="False" Strikeout="False" />'+
-			'<PreText />'+
-			'<PostText />'+
-			'<IncludeTime>True</IncludeTime>'+
-			'<Use24HourFormat>True</Use24HourFormat>'+
-		'</DateTimeObject>'+
-		'<Bounds X="1358.29195918367" Y="2430.0591" Width="2100.804" Height="545.9409" />'+
-	'</ObjectInfo>'+
-	'<ObjectInfo>'+
-		'<ShapeObject Stroke="SolidLine">'+
-			'<Name>SHAPE</Name>'+
-			'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />'+
-			'<BackColor Alpha="0" Red="255" Green="255" Blue="255" />'+
-			'<LinkedObjectName />'+
-			'<Rotation>Rotation0</Rotation>'+
-			'<IsMirrored>False</IsMirrored>'+
-			'<IsVariable>False</IsVariable>'+
-			'<GroupID>-1</GroupID>'+
-			'<IsOutlined>False</IsOutlined>'+
-			'<ShapeType>Rectangle</ShapeType>'+
-			'<LineWidth>20</LineWidth>'+
-			'<LineAlignment>LeftOrTop</LineAlignment>'+
-			'<FillColor Alpha="0" Red="0" Green="0" Blue="0" />'+
-		'</ShapeObject>'+
-		'<Bounds X="3559.32495918367" Y="1887.33102040816" Width="1978.777" Height="1088.66897959184" />'+
-	'</ObjectInfo>'+
-	'<ObjectInfo>'+
-		'<TextObject>'+
-			'<Name>TEXT_1</Name>'+
-			'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />'+
-			'<BackColor Alpha="0" Red="255" Green="255" Blue="255" />'+
-			'<LinkedObjectName />'+
-			'<Rotation>Rotation0</Rotation>'+
-			'<IsMirrored>False</IsMirrored>'+
-			'<IsVariable>False</IsVariable>'+
-			'<GroupID>-1</GroupID>'+
-			'<IsOutlined>False</IsOutlined>'+
-			'<HorizontalAlignment>Left</HorizontalAlignment>'+
-			'<VerticalAlignment>Middle</VerticalAlignment>'+
-			'<TextFitMode>ShrinkToFit</TextFitMode>'+
-			'<UseFullFontHeight>True</UseFullFontHeight>'+
-			'<Verticalized>False</Verticalized>'+
-			'<StyledText>'+
-				'<Element>'+
-					'<String xml:space="preserve">QC</String>'+
-					'<Attributes>'+
-						'<Font Family="Myriad Pro" Size="13" Bold="True" Italic="False" Underline="False" Strikeout="False" />'+
-						'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />'+
-					'</Attributes>'+
-				'</Element>'+
-			'</StyledText>'+
-		'</TextObject>'+
-		'<Bounds X="3634.449" Y="1903.47126530612" Width="551.7728" Height="411.1175" />'+
-	'</ObjectInfo>'+
-	'<ObjectInfo>'+
-		'<TextObject>'+
-			'<Name>Dept</Name>'+
-			'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />'+
-			'<BackColor Alpha="0" Red="255" Green="255" Blue="255" />'+
-			'<LinkedObjectName />'+
-			'<Rotation>Rotation0</Rotation>'+
-			'<IsMirrored>False</IsMirrored>'+
-			'<IsVariable>False</IsVariable>'+
-			'<GroupID>-1</GroupID>'+
-			'<IsOutlined>False</IsOutlined>'+
-			'<HorizontalAlignment>Left</HorizontalAlignment>'+
-			'<VerticalAlignment>Middle</VerticalAlignment>'+
-			'<TextFitMode>AlwaysFit</TextFitMode>'+
-			'<UseFullFontHeight>True</UseFullFontHeight>'+
-			'<Verticalized>False</Verticalized>'+
-			'<StyledText>'+
-				'<Element>'+
-					'<String xml:space="preserve">HAB</String>'+
-					'<Attributes>'+
-						'<Font Family="Helvetica" Size="13" Bold="True" Italic="False" Underline="False" Strikeout="False" />'+
-						'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />'+
-					'</Attributes>'+
-				'</Element>'+
-			'</StyledText>'+
-		'</TextObject>'+
-		'<Bounds X="1394.91453061225" Y="2000.9387755102" Width="774.2684" Height="617.6643" />'+
-	'</ObjectInfo>'+
-	'<ObjectInfo>'+
-		'<TextObject>'+
-			'<Name>Side</Name>'+
-			'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />'+
-			'<BackColor Alpha="0" Red="255" Green="255" Blue="255" />'+
-			'<LinkedObjectName />'+
-			'<Rotation>Rotation0</Rotation>'+
-			'<IsMirrored>False</IsMirrored>'+
-			'<IsVariable>False</IsVariable>'+
-			'<GroupID>-1</GroupID>'+
-			'<IsOutlined>False</IsOutlined>'+
-			'<HorizontalAlignment>Left</HorizontalAlignment>'+
-			'<VerticalAlignment>Middle</VerticalAlignment>'+
-			'<TextFitMode>ShrinkToFit</TextFitMode>'+
-			'<UseFullFontHeight>True</UseFullFontHeight>'+
-			'<Verticalized>False</Verticalized>'+
-			'<StyledText>'+
-				'<Element>'+
-					'<String xml:space="preserve">Links / Rechts</String>'+
-					'<Attributes>'+
-						'<Font Family="Helvetica" Size="16" Bold="False" Italic="False" Underline="False" Strikeout="False" />'+
-						'<ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />'+
-					'</Attributes>'+
-				'</Element>'+
-			'</StyledText>'+
-		'</TextObject>'+
-		'<Bounds X="404.936430612245" Y="1573.46651020408" Width="2540" Height="514.40526122449" />'+
-	'</ObjectInfo>'+
-'</DieCutLabel>';
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DieCutLabel Version="8.0" Units="twips" MediaType="Default">
+	<PaperOrientation>Landscape</PaperOrientation>
+	<Id>Shipping</Id>
+	<IsOutlined>false</IsOutlined>
+	<PaperName>30323 Shipping</PaperName>
+	<DrawCommands>
+		<RoundRectangle X="0" Y="0" Width="3060" Height="5715" Rx="270" Ry="270" />
+	</DrawCommands>
+	<ObjectInfo>
+		<TextObject>
+			<Name>TEXT</Name>
+			<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />
+			<BackColor Alpha="0" Red="255" Green="255" Blue="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<HorizontalAlignment>Left</HorizontalAlignment>
+			<VerticalAlignment>Middle</VerticalAlignment>
+			<TextFitMode>AlwaysFit</TextFitMode>
+			<UseFullFontHeight>True</UseFullFontHeight>
+			<Verticalized>False</Verticalized>
+			<StyledText>
+				<Element>
+					<String xml:space="preserve">SERIAL</String>
+					<Attributes>
+						<Font Family="Myriad Pro" Size="24" Bold="True" Italic="False" Underline="False" Strikeout="False" />
+						<ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />
+					</Attributes>
+				</Element>
+			</StyledText>
+		</TextObject>
+		<Bounds X="307" Y="99.28005" Width="5323" Height="1935.202" />
+	</ObjectInfo>
+	<ObjectInfo>
+		<BarcodeObject>
+			<Name>QR</Name>
+			<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />
+			<BackColor Alpha="255" Red="255" Green="255" Blue="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<Text>QR</Text>
+			<Type>QRCode</Type>
+			<Size>Medium</Size>
+			<TextPosition>None</TextPosition>
+			<TextFont Family="Helvetica" Size="10" Bold="False" Italic="False" Underline="False" Strikeout="False" />
+			<CheckSumFont Family="Helvetica" Size="10" Bold="False" Italic="False" Underline="False" Strikeout="False" />
+			<TextEmbedding>None</TextEmbedding>
+			<ECLevel>0</ECLevel>
+			<HorizontalAlignment>Center</HorizontalAlignment>
+			<QuietZonesPadding Left="0" Top="0" Right="0" Bottom="0" />
+		</BarcodeObject>
+		<Bounds X="307" Y="1779.588" Width="1217.312" Height="1196.412" />
+	</ObjectInfo>
+	<ObjectInfo>
+		<DateTimeObject>
+			<Name>DATE-TIME</Name>
+			<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />
+			<BackColor Alpha="0" Red="255" Green="255" Blue="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<HorizontalAlignment>Left</HorizontalAlignment>
+			<VerticalAlignment>Middle</VerticalAlignment>
+			<TextFitMode>ShrinkToFit</TextFitMode>
+			<UseFullFontHeight>True</UseFullFontHeight>
+			<Verticalized>False</Verticalized>
+			<DateTimeFormat>DayMonthYear</DateTimeFormat>
+			<Font Family="Myriad Pro" Size="13" Bold="True" Italic="False" Underline="False" Strikeout="False" />
+			<PreText />
+			<PostText />
+			<IncludeTime>True</IncludeTime>
+			<Use24HourFormat>True</Use24HourFormat>
+		</DateTimeObject>
+		<Bounds X="1358.29195918367" Y="2430.0591" Width="2100.804" Height="545.9409" />
+	</ObjectInfo>
+	<ObjectInfo>
+		<ShapeObject Stroke="SolidLine">
+			<Name>SHAPE</Name>
+			<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />
+			<BackColor Alpha="0" Red="255" Green="255" Blue="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<ShapeType>Rectangle</ShapeType>
+			<LineWidth>20</LineWidth>
+			<LineAlignment>LeftOrTop</LineAlignment>
+			<FillColor Alpha="0" Red="0" Green="0" Blue="0" />
+		</ShapeObject>
+		<Bounds X="3559.32495918367" Y="1887.33102040816" Width="1978.777" Height="1088.66897959184" />
+	</ObjectInfo>
+	<ObjectInfo>
+		<TextObject>
+			<Name>TEXT_1</Name>
+			<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />
+			<BackColor Alpha="0" Red="255" Green="255" Blue="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<HorizontalAlignment>Left</HorizontalAlignment>
+			<VerticalAlignment>Middle</VerticalAlignment>
+			<TextFitMode>ShrinkToFit</TextFitMode>
+			<UseFullFontHeight>True</UseFullFontHeight>
+			<Verticalized>False</Verticalized>
+			<StyledText>
+				<Element>
+					<String xml:space="preserve">QC</String>
+					<Attributes>
+						<Font Family="Myriad Pro" Size="13" Bold="True" Italic="False" Underline="False" Strikeout="False" />
+						<ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />
+					</Attributes>
+				</Element>
+			</StyledText>
+		</TextObject>
+		<Bounds X="3634.449" Y="1903.47126530612" Width="551.7728" Height="411.1175" />
+	</ObjectInfo>
+	<ObjectInfo>
+		<TextObject>
+			<Name>Dept</Name>
+			<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />
+			<BackColor Alpha="0" Red="255" Green="255" Blue="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<HorizontalAlignment>Left</HorizontalAlignment>
+			<VerticalAlignment>Middle</VerticalAlignment>
+			<TextFitMode>AlwaysFit</TextFitMode>
+			<UseFullFontHeight>True</UseFullFontHeight>
+			<Verticalized>False</Verticalized>
+			<StyledText>
+				<Element>
+					<String xml:space="preserve">HAB</String>
+					<Attributes>
+						<Font Family="Helvetica" Size="13" Bold="True" Italic="False" Underline="False" Strikeout="False" />
+						<ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />
+					</Attributes>
+				</Element>
+			</StyledText>
+		</TextObject>
+		<Bounds X="1394.91453061225" Y="2000.9387755102" Width="774.2684" Height="617.6643" />
+	</ObjectInfo>
+	<ObjectInfo>
+		<TextObject>
+			<Name>Side</Name>
+			<ForeColor Alpha="255" Red="0" Green="0" Blue="0" />
+			<BackColor Alpha="0" Red="255" Green="255" Blue="255" />
+			<LinkedObjectName />
+			<Rotation>Rotation0</Rotation>
+			<IsMirrored>False</IsMirrored>
+			<IsVariable>False</IsVariable>
+			<GroupID>-1</GroupID>
+			<IsOutlined>False</IsOutlined>
+			<HorizontalAlignment>Left</HorizontalAlignment>
+			<VerticalAlignment>Middle</VerticalAlignment>
+			<TextFitMode>ShrinkToFit</TextFitMode>
+			<UseFullFontHeight>True</UseFullFontHeight>
+			<Verticalized>False</Verticalized>
+			<StyledText>
+				<Element>
+					<String xml:space="preserve">Links / Rechts</String>
+					<Attributes>
+						<Font Family="Helvetica" Size="16" Bold="False" Italic="False" Underline="False" Strikeout="False" />
+						<ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />
+					</Attributes>
+				</Element>
+			</StyledText>
+		</TextObject>
+		<Bounds X="404.936430612245" Y="1573.46651020408" Width="2540" Height="514.40526122449" />
+	</ObjectInfo>
+</DieCutLabel>
