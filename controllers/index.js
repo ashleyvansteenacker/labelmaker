@@ -3,6 +3,15 @@ const https = require("https");
 var department, qty, labeltype, side, sidetxt, etiquette;
 let serial = "",
   optcode = "";
+let ts = Date.now();
+let date_ob = new Date(ts);
+let date = date_ob.getDate();
+let month = date_ob.getMonth() + 1;
+let year = date_ob.getFullYear();
+let hours = date_ob.getHours();
+let minutes = date_ob.getMinutes();
+
+
 
 // Set hostname and location to post to (DLS)
 var options = {
@@ -522,6 +531,10 @@ exports.create_post = function(req, res) {
       "</DieCutLabel>";
     //#endregion
 
+
+  console.log(serial+","+department+","+labeltype+","+date + "," + month + "," + year+","+hours+":"+minutes);
+
+
     // Check labeltype and select the right template
     if (labeltype === 0) {
       //console.log("small");
@@ -542,7 +555,6 @@ exports.create_post = function(req, res) {
     }
 
     process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"; // Don't verify SSL cert (should fix later)
-console.log(serial+" "+department);
     var req = https.request(options, res => {
       //console.log('statusCode:', res.statusCode); //uncomment to display debug info
       //console.log('headers:', res.headers); //uncomment to display debug info
