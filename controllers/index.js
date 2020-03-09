@@ -117,11 +117,11 @@ exports.create_post = function(req, res) {
       qty = 1;
       side = 0;
   }
-  console.log(department + " " + labeltype + "  " + qty + "  " + side); //uncomment to display debug info
+  //console.log(department + " " + labeltype + "  " + qty + "  " + side); //uncomment to display debug info
   for (i = 0; i < qty; i++) {
     //Print the qty as defined
     var side;
-    console.log(i, qty);
+    //console.log(i, qty);
     if (side === 1) {
       switch (i) {
         case 1:
@@ -287,7 +287,7 @@ exports.create_post = function(req, res) {
       "<Element>" +
       "<String>QC</String>" +
       "<Attributes>" +
-      '<Font Family="Helvetica" Size="13" Bold="False" Italic="False" Underline="False" Strikeout="False"/>' +
+      '<Font Family="Helvetica" Size="13" Bold="True" Italic="False" Underline="False" Strikeout="False"/>' +
       '<ForeColor Alpha="255" Red="0" Green="0" Blue="0"/>' +
       "</Attributes>" +
       "</Element>" +
@@ -542,7 +542,7 @@ exports.create_post = function(req, res) {
     }
 
     process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"; // Don't verify SSL cert (should fix later)
-
+console.log(serial+" "+department);
     var req = https.request(options, res => {
       //console.log('statusCode:', res.statusCode); //uncomment to display debug info
       //console.log('headers:', res.headers); //uncomment to display debug info
@@ -553,7 +553,7 @@ exports.create_post = function(req, res) {
     });
 
     req.on("error", e => {
-      console.error(e);
+      //console.error(e);
     });
 
     req.write(postData);
